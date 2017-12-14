@@ -1,0 +1,57 @@
+body {
+    background: url("koi1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+li {
+    padding: 20px;
+    color: #fff3e1;
+    display: inline;
+    font-size: 16px;
+    float: right;
+}
+
+li:hover {
+    color: #0ebfe9;
+}
+
+header {
+    margin: 0 auto;
+    height: 200px;
+    width: 100vw;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("scale.jpg") repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 20px;
+}
+
+div {
+    padding: 50px;
+    height: 600px;
+    width: 250px;
+    display: inline-block;
+}
+
+article {
+    align-content: center;
+    font-size: 18px;
+    color: coral;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    float: top;
+}
+
+p {
+    font-size: 14px;
+    color: gold;
+}
